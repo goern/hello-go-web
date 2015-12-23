@@ -4,8 +4,6 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	"github.com/thoas/stats"
-
 	mw "github.com/labstack/echo/middleware"
 )
 
@@ -24,14 +22,6 @@ func main() {
 
 	// Routes
 	e.Get("/", hello)
-
-	// https://github.com/thoas/stats
-	s := stats.New()
-	e.Use(s.Handler)
-	// Route
-	e.Get("/stats", func(c *echo.Context) error {
-		return c.JSON(http.StatusOK, s.Data())
-	})
 
 	// Start server
 	e.Run(":1323")

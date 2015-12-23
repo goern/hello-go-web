@@ -1,0 +1,48 @@
+{
+	"ImportPath": "github.com/goern/hello-go-web",
+	"GoVersion": "go1.5.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/labstack/echo",
+			"Comment": "v1.3-3-g5cd194b",
+			"Rev": "5cd194b6b073541a5ab6c80d7ba8162be373d007"
+		},
+		{
+			"ImportPath": "github.com/labstack/gommon/color",
+			"Comment": "v0.0.3-23-g2ebf6ac",
+			"Rev": "2ebf6acaf35a9c52c984656ba9f738080aaf097d"
+		},
+		{
+			"ImportPath": "github.com/labstack/gommon/log",
+			"Comment": "v0.0.3-23-g2ebf6ac",
+			"Rev": "2ebf6acaf35a9c52c984656ba9f738080aaf097d"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Rev": "3dac7b4f76f6e17fb39b768b89e3783d16e237fe"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Rev": "56b76bdf51f7708750eac80fa38b952bb9f32639"
+		},
+		{
+			"ImportPath": "github.com/thoas/stats",
+			"Rev": "54ed61c2b47e263ae2f01b86837b0c4bd1da28e8"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "6c89489cafabcbc76df9dbf84ebf07204673fecf"
+		},
+		{
+			"ImportPath": "golang.org/x/net/http2",
+			"Rev": "6c89489cafabcbc76df9dbf84ebf07204673fecf"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "6c89489cafabcbc76df9dbf84ebf07204673fecf"
+		}
+	]
+}
